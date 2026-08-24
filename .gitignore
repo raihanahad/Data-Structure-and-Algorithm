@@ -1,54 +1,42 @@
-<<<<<<< HEAD
-*.exe 
-.cph-bin/ 
-=======
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# C++ executables and build files
 *.exe
 *.out
 *.app
+
+# Code::Blocks / compiler cache
+.cph-bin/
+
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Debug files
+*.pdb
+*.ilk
+*.dwo
+
+# Libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.la
+*.lai
 
 # Build directories
 build/
 Build/
 build-*/
 
-# CMake generated files
+# CMake
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
@@ -62,13 +50,9 @@ compile_commands.json
 *.bak
 *.swp
 
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
+# Testing/cache
 Testing/
 .cache/
->>>>>>> 11de8af82ae33658f385b552b91dfaddae1a3fd9
+
+# vcpkg
+vcpkg_installed/
