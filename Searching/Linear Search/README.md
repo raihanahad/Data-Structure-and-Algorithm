@@ -1,4 +1,3 @@
-হ্যাঁ, তাহলে README-এর জন্য **simple + clean + key points** রাখাই ভালো:
 
 ### Complexity Analysis of Linear Search
 
